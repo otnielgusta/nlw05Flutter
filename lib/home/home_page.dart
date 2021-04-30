@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nlwflutter/challenge/widgets/question_indicator/quiz/quiz_widget.dart';
+import 'package:nlwflutter/challenge/challenge_page.dart';
+
 import 'package:nlwflutter/core/app_colors.dart';
 import 'package:nlwflutter/home/home_controller.dart';
 import 'package:nlwflutter/home/home_state.dart';
@@ -66,6 +67,15 @@ class _HomePageState extends State<HomePage> {
                   crossAxisCount: 2,
                   children: controller.quizzes!
                       .map((e) => QuizCardWidget(
+                            onTap: () {
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => ChallengePage(
+                                            title: e.title,
+                                            questions: e.questions,
+                                          )));
+                            },
                             title: e.title,
                             completed:
                                 "${e.questionAnswered}/${e.questions.length}",

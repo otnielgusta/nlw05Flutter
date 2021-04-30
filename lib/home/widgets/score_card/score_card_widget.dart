@@ -3,9 +3,9 @@ import 'package:nlwflutter/core/app_text_styles.dart';
 import 'package:nlwflutter/home/widgets/chart/chart_widget.dart';
 
 class ScoreCardWidget extends StatelessWidget {
-  final int score;
+  final double percent;
 
-  const ScoreCardWidget({Key? key, required this.score}) : super(key: key);
+  const ScoreCardWidget({Key? key, required this.percent}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -23,7 +23,7 @@ class ScoreCardWidget extends StatelessWidget {
               Expanded(
                 flex: 1,
                 child: ChartWidget(
-                  score: score,
+                  percent: percent,
                 ),
               ),
               Expanded(
