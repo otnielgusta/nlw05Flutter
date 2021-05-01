@@ -1,64 +1,139 @@
 [
   {   
-    "title": "NLW 5 Flutter",
+    "title": "Quiz sobre Otniel Lindo",
     "imagem": "blocks",
     "questionAnswered": 1,
     "level": "facil",      
     "questions": [
       {
-        "title": "Está curtindo o Flutter?",
+        "title": "Qual a data de nascimento de Otniel?",
         "answer": [
           {
-            "title": "Estou curtindo"
+            "title": "22/07/1998"
           },
           {
-            "title": "Amando Flutter"
+            "title": "23/07/1998"
           },
           {
-            "title": "Muito top"
-          },
-          {
-            "title": "Show de Bola",
+            "title": "22/06/1998",
             "isRight": true
+          },
+          {
+            "title": "22/05/1998"
+           
           }
         ]
       },
       {
-        "title": "Está curtindo o Flutter?",
+        "title": "Com quantos anos Otniel fez seu primeiro show musical?",
         "answer": [
           {
-            "title": "Estou curtindo"
+            "title": "12 anos"
           },
           {
-            "title": "Amando Flutter",
+            "title": "11 anos",
             "isRight": true
           },
           {
-            "title": "Muito top"
+            "title": "10 anos"
           },
           {
-            "title": "Show de Bola"
+            "title": "13 anos"
           }
         ]
       },
       {
-        "title": "Está curtindo o Flutter?",
+        "title": "Qual era o nome da banda sertaneja que Otniel fazia parte?",
         "answer": [
           {
-            "title": "Estou curtindo",
+            "title": "Os Brutos do Sertanejo",
             "isRight": true
           },
           {
-            "title": "Amando Flutter"
+            "title": "Os Brutos SU"
           },
           {
-            "title": "Muito top"
+            "title": "Sertanejo na veia"
           },
           {
-            "title": "Show de Bola"
+            "title": "Os Brutos"
           }
         ]
-      }
+      },
+          {
+            "title": "Qual o nome da banda de Rock que Otniel fazia parte?",
+            "answer": [
+              {
+                "title": "Moralisa"
+              },
+              {
+                "title": "2.Zero",
+                "isRight": true
+              },
+              {
+                "title": "RPM"
+              },
+              {
+                "title": "CPM"
+              }
+            ]
+          
+        }, {
+          "title": "Qual a parte do corpo que Otniel não sofreu lesão",
+          "answer": [
+            {
+              "title": "Braço"
+            },
+            {
+              "title": "Pé"
+            },
+            {
+              "title": "Peito",
+              "isRight": true
+            },
+            {
+              "title": "Joelho"
+            }
+          ]
+        
+      }, {
+        "title": "Com quantos anos Otniel deu o seu primeiro beijo?",
+        "answer": [
+          {
+            "title": "13",
+            "isRight": true
+          },
+          {
+            "title": "12"
+          },
+          {
+            "title": "14"
+          },
+          {
+            "title": "15"
+          }
+        ]
+      
+    }, {
+      "title": "Quanto Otniel é apaixonado por sua namorada?",
+      "answer": [
+        {
+          "title": "98%"
+        },
+        {
+          "title": "99%"
+        },
+        {
+          "title": "99,9%"
+        },
+        {
+          "title": "100%",
+          "isRight": true
+        }
+      ]
+    
+  }
+      
     ]
   }
 ]

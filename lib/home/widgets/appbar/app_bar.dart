@@ -5,9 +5,12 @@ import 'package:nlwflutter/home/widgets/score_card/score_card_widget.dart';
 import 'package:nlwflutter/shared/models/user_model.dart';
 
 class AppBarWidget extends PreferredSize {
+  final String nome;
   final UserModel userModel;
-  AppBarWidget({required this.userModel})
-      : super(
+  AppBarWidget({
+    required this.userModel,
+    required this.nome,
+  }) : super(
           preferredSize: Size.fromHeight(250),
           child: Container(
             height: 250,
@@ -30,7 +33,7 @@ class AppBarWidget extends PreferredSize {
                             style: AppTextStyles.title,
                             children: [
                               TextSpan(
-                                text: userModel.name,
+                                text: nome,
                                 style: AppTextStyles.titleBold,
                               )
                             ]),

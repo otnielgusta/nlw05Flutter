@@ -9,6 +9,9 @@ import 'package:nlwflutter/home/widgets/level_button/level_button_widget.dart';
 import 'package:nlwflutter/home/widgets/quiz_card/quiz_card_widget.dart';
 
 class HomePage extends StatefulWidget {
+  final String nome;
+
+  const HomePage({Key? key, required this.nome}) : super(key: key);
   @override
   _HomePageState createState() => _HomePageState();
 }
@@ -32,7 +35,10 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     if (controller.state == HomeState.success) {
       return Scaffold(
-        appBar: AppBarWidget(userModel: controller.user!),
+        appBar: AppBarWidget(
+          userModel: controller.user!,
+          nome: widget.nome,
+        ),
         body: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20.0),
           child: Column(

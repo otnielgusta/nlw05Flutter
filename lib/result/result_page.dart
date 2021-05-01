@@ -65,7 +65,7 @@ class ResultPage extends StatelessWidget {
                               onTap: () {
                                 double porcent = (result * 100) / length;
                                 Share.share(
-                                    'DevQuiz NLW 5 - Flutter: Resultado do Quiz: $title\nObtive: ${porcent.toStringAsPrecision(2)}% de aproveitamento');
+                                    'Resultado do Quiz: $title\nObtive: ${porcent.toString()}% de aproveitamento');
                               })),
                     ],
                   ),
